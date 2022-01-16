@@ -2,9 +2,20 @@
 nwhacks2022
 
 ## How to play
-1. Download Unity (there is a free student plan)
-2. Clone the repo and checkout onto the virus3 branch
-3. Add the SampleScene, and the StartScene to the editor, and unload the SampleScene
-4. Hit play and enjoy!
+Download the game here
+
+Windows:
+  https://drive.google.com/drive/folders/1i8KGqja60K8XLS2NQjTOSoI-PBpAbrln 
+  
+  - download and unzip the folder 
+  - run the .exe file
+  
+Mac: 
+  https://drive.google.com/file/d/1hxhm1xvtK_xpSBsdRCweOpuQHKGaG_7Z/view 
+  
+  - download and run the file 
+
+
+Press play and enjoy!
 
 
