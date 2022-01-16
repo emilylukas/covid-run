@@ -1123,7 +1123,6 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 8
-  lives: 3
   hearts:
   - {fileID: 0}
   - {fileID: 0}
@@ -3334,7 +3333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4533026406492222, guid: c9909a6c1892fd04cb840ad5329e558e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.56
+      value: 4.27
       objectReference: {fileID: 0}
     - target: {fileID: 4533026406492222, guid: c9909a6c1892fd04cb840ad5329e558e, type: 3}
       propertyPath: m_LocalPosition.z
