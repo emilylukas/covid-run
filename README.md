@@ -1,5 +1,5 @@
-# COVID Run
-nwhacks2022
+# CovidRun
+  nwhacks2022
 
 ## Play the game here
 
