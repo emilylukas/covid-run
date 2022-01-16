@@ -1,8 +1,7 @@
 # COVID Run
 nwhacks2022
 
-## How to play
-Download the game here
+## Play the game here
 
 Windows:
   https://drive.google.com/drive/folders/1i8KGqja60K8XLS2NQjTOSoI-PBpAbrln 
