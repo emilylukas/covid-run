@@ -19,7 +19,7 @@ public class CameraFollow : MonoBehaviour
     {
         if (target.position.y > -3)
         {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(target.position.x, 2, target.position.z) + offset, Time.deltaTime * 3);
+            transform.position = Vector3.Lerp(transform.position, new Vector3(target.position.x, 3.5f, target.position.z - 2) + offset, Time.deltaTime * 3);
         }
     }
 }
