@@ -14,9 +14,9 @@ public class ItemCollector : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         if (other.gameObject.CompareTag("Vaccine")) 
         {
-            Destroy(other.gameObject);
             vaccine++;
             vaccineText.text = "Points: " + vaccine;
+            Destroy(other.gameObject);
         }
     }
 }
