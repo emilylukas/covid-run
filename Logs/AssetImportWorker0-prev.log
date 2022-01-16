@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59493
+59616
 Successfully changed project path to: /Users/Ivy/hackathons/nwplus22/COVID
 /Users/Ivy/hackathons/nwplus22/COVID
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/Ivy/hackathons/nwplus22/COVID/Assets
 GfxDevice: creating device client; threaded=0
-2022-01-15 15:42:14.544 Unity[37068:1878386] (null) preferred device: Apple M1 (high power)
-2022-01-15 15:42:14.544 Unity[37068:1878386] Metal devices available: 1
-2022-01-15 15:42:14.544 Unity[37068:1878386] 0: Apple M1 (high power)
-2022-01-15 15:42:14.544 Unity[37068:1878386] Using device Apple M1 (high power)
+2022-01-15 15:50:09.156 Unity[37363:1885329] (null) preferred device: Apple M1 (high power)
+2022-01-15 15:50:09.156 Unity[37363:1885329] Metal devices available: 1
+2022-01-15 15:50:09.156 Unity[37363:1885329] 0: Apple M1 (high power)
+2022-01-15 15:50:09.157 Unity[37363:1885329] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56363
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001101 seconds.
+Registered in 0.001380 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 38.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
+- Completed reload, in  1.245 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1167ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (1246ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (960ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (5ms)
-			SetupTypeCache (170ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (178ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (466ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (508ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003084 seconds.
+Registered in 0.007138 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.139 seconds
+- Completed reload, in  2.258 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2141ms)
-		BeginReloadAssembly (237ms)
+	ReloadAssembly (2260ms)
+		BeginReloadAssembly (243ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (30ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1817ms)
-			LoadAssemblies (188ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1929ms)
+			LoadAssemblies (183ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
+			SetupTypeCache (327ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (1019ms)
+			SetupLoadedEditorAssemblies (1130ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (863ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (961ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.004397 seconds.
+Validating Project structure ... 0.014900 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.005094 seconds.
+Upgrading shader files ...0.005212 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,20 +125,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Initializing Unity extensions:
-2022-01-15 15:42:19.719 Unity[37068:1878386] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002408bd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-01-15 15:42:19.722 Unity[37068:1878386] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000241fcd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-01-15 15:50:13.757 Unity[37363:1885329] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000332a70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-01-15 15:50:13.760 Unity[37363:1885329] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000003dfb80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1932 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.3 MB.
-System memory in use after: 212.4 MB.
+System memory in use before: 213.5 MB.
+System memory in use after: 212.6 MB.
 
 Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 2396.
-Total: 3.014667 ms (FindLiveObjects: 0.085875 ms CreateObjectMapping: 0.036583 ms MarkObjects: 2.444959 ms  DeleteObjects: 0.445875 ms)
+Total: 3.215875 ms (FindLiveObjects: 0.080542 ms CreateObjectMapping: 0.036583 ms MarkObjects: 2.597833 ms  DeleteObjects: 0.499750 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,16 +152,210 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2ebd2844e1cee09475f357c3afb310') in 0.115894 seconds 
-  Import took 0.121189 seconds .
+  path: Assets/Surgical Instruments - Free hospital props/Models
+  artifactKey: Guid(576a9bebe8832be408d703e4526c1998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models using Guid(576a9bebe8832be408d703e4526c1998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd1cbb9b7421fa9fd65112e73bc0889') in 0.005879 seconds 
+  Import took 0.008233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.890996 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e09384ca1a7e4480d370d1c675e54a3') in 0.001710 seconds 
-  Import took 0.004654 seconds .
+  Time since last request: 0.000276 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Hook_1.fbx
+  artifactKey: Guid(ddf5f78d1cecd90459c48028ae7640e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Hook_1.fbx using Guid(ddf5f78d1cecd90459c48028ae7640e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c940abeede5f45e5219b6bcc8dd2807') in 1.079174 seconds 
+  Import took 1.087264 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Clamp_1.fbx
+  artifactKey: Guid(c127cab234a627d44b74f682c2c7c1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Clamp_1.fbx using Guid(c127cab234a627d44b74f682c2c7c1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f6351524234459900f87b0c804c3e') in 0.086718 seconds 
+  Import took 0.091873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Clamp_2.fbx
+  artifactKey: Guid(9627d0173e36af945a796d8ebc20f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Clamp_2.fbx using Guid(9627d0173e36af945a796d8ebc20f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64da9a17298e9f118c0c78818c749d54') in 0.066066 seconds 
+  Import took 0.070402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Hook_2.fbx
+  artifactKey: Guid(1bb3de73d63b9e547b9d485ddd71ba6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Hook_2.fbx using Guid(1bb3de73d63b9e547b9d485ddd71ba6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419c11a0d943d0327e61b4aae8006df6') in 0.051766 seconds 
+  Import took 0.056086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Syringe_1.fbx
+  artifactKey: Guid(ff922435942a14b4ea077d5db343bf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Syringe_1.fbx using Guid(ff922435942a14b4ea077d5db343bf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cff8601efdd0899078fbbfcb450fe5') in 0.071295 seconds 
+  Import took 0.075753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Scalpel_2.fbx
+  artifactKey: Guid(9af32ca06224ee843b1f379b3b5c2e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Scalpel_2.fbx using Guid(9af32ca06224ee843b1f379b3b5c2e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343348ed9c9dfb303e69a6455aa18c30') in 0.053036 seconds 
+  Import took 0.057943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Saw_2.fbx
+  artifactKey: Guid(62c2e5ad8f6c6b04daef46e5a808bf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Saw_2.fbx using Guid(62c2e5ad8f6c6b04daef46e5a808bf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21350be42f6c94ee0ce987821eafca71') in 0.048711 seconds 
+  Import took 0.052822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Swathe_1.fbx
+  artifactKey: Guid(25cb0fadb96cc344e94d34ac393bb9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Swathe_1.fbx using Guid(25cb0fadb96cc344e94d34ac393bb9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ded14f935ee3e076c69d1c1a670059') in 0.054669 seconds 
+  Import took 0.059363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Saw_1.fbx
+  artifactKey: Guid(f0d49cb37c81ae245a453db25febe949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Saw_1.fbx using Guid(f0d49cb37c81ae245a453db25febe949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7ea8cbda70a7109d863d86e09bd1ab') in 0.061194 seconds 
+  Import took 0.065451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Scalpel_1.fbx
+  artifactKey: Guid(ab4f68ad744228a4197cd96af45409ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Scalpel_1.fbx using Guid(ab4f68ad744228a4197cd96af45409ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735d9890afaf7639859d6ff3ec220fe0') in 0.051132 seconds 
+  Import took 0.055462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Forceps_1.fbx
+  artifactKey: Guid(5fb91beefe44cac4f9a3c50f29bd917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Forceps_1.fbx using Guid(5fb91beefe44cac4f9a3c50f29bd917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412515d2129d7529847940024c03d3b1') in 0.050922 seconds 
+  Import took 0.055485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Drill_1.fbx
+  artifactKey: Guid(f8f38d2ab99ae394d9c72bb554387a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Drill_1.fbx using Guid(f8f38d2ab99ae394d9c72bb554387a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbeb59648829d24e542021029d3cfc3') in 0.070968 seconds 
+  Import took 0.075519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Forceps_2.fbx
+  artifactKey: Guid(3eae65bf2a58bb84eb3741427dcb8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Forceps_2.fbx using Guid(3eae65bf2a58bb84eb3741427dcb8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a318bd81d8e561493152495a89ce42f4') in 0.050061 seconds 
+  Import took 0.054323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Forceps_3.fbx
+  artifactKey: Guid(0fe923a60b4678c4b94cd01c2707ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Forceps_3.fbx using Guid(0fe923a60b4678c4b94cd01c2707ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee33ec7ce77fef6ff243af5964ccb43e') in 0.054837 seconds 
+  Import took 0.059605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Tampon_1.fbx
+  artifactKey: Guid(1b06da34f95f3fe498b13372dd64d8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Tampon_1.fbx using Guid(1b06da34f95f3fe498b13372dd64d8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07e439fd8f1b17d63ced141a70d7218') in 0.053377 seconds 
+  Import took 0.057537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Bowl_1.fbx
+  artifactKey: Guid(98badb7ccc679b343b4e4dce6eef25f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Bowl_1.fbx using Guid(98badb7ccc679b343b4e4dce6eef25f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609b1985667239be73d709e67386d675') in 0.049133 seconds 
+  Import took 0.053766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Surgical Instruments - Free hospital props/Models/Scalpel_Cap.fbx
+  artifactKey: Guid(95aacef69e284294994a1f8a3ad11648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Surgical Instruments - Free hospital props/Models/Scalpel_Cap.fbx using Guid(95aacef69e284294994a1f8a3ad11648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1aadb7a489dd6129fd7aa50de58ecd') in 0.052714 seconds 
+  Import took 0.058790 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-01-15 16:10:52.749 Unity[37363:1885329] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000323c60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2277ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (1917ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1092ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (862ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1901 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.6 MB.
+System memory in use after: 214.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 2.315417 ms (FindLiveObjects: 0.094834 ms CreateObjectMapping: 0.037125 ms MarkObjects: 2.110125 ms  DeleteObjects: 0.072333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
