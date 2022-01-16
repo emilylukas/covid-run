@@ -1,5 +1,5 @@
-# CovidRun
-  nwhacks2022
+# CovidRun 
+A fun 3D game to avoid getting hit by Covid-19! Collect vaccines on the way to reach the hospital!
 
 ## Play the game here
 
