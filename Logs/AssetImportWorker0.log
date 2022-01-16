@@ -2037,3 +2037,2085 @@ Received Import Request.
 Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Porch/Umbrella_01_Snaps014.prefab using Guid(87e2affb355a79c4793b587696ba09b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb1b69dfe4dc57ab8eb8ed0d431c837') in 0.008960 seconds 
   Import took 0.011162 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-01-15 14:44:07.483 Unity[69341:601823] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000032638e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2354ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2005ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (937ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1901 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.9 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2422.
+Total: 2.296583 ms (FindLiveObjects: 0.084209 ms CreateObjectMapping: 0.036792 ms MarkObjects: 2.107458 ms  DeleteObjects: 0.067125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 496.546725 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Brush_01_Snaps014.prefab
+  artifactKey: Guid(9c61282685dd10042ae11a4a7858c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Brush_01_Snaps014.prefab using Guid(9c61282685dd10042ae11a4a7858c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3495a4d6528ce41032f479f76e4ef785') in 0.131730 seconds 
+  Import took 0.134739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Restroom_Sink_01_Snaps014.prefab
+  artifactKey: Guid(80d0bc4d5af6e434390ccfc376eaef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Restroom_Sink_01_Snaps014.prefab using Guid(80d0bc4d5af6e434390ccfc376eaef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc166e3538bee7e13b5b40e06c78854') in 0.014046 seconds 
+  Import took 0.016462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Faucet_Snaps014.prefab
+  artifactKey: Guid(6b7afc59dc6fd1f468a1fd0f11623c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Faucet_Snaps014.prefab using Guid(6b7afc59dc6fd1f468a1fd0f11623c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405b40e858299879717649e137d46758') in 0.011356 seconds 
+  Import took 0.013762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_01_Snaps014.prefab
+  artifactKey: Guid(0edbcfbf13434934e88362dbcc7528e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_01_Snaps014.prefab using Guid(0edbcfbf13434934e88362dbcc7528e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05508b06a68c8cf1acba0c87b8b9785b') in 0.009728 seconds 
+  Import took 0.012220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_05_Snaps014.prefab
+  artifactKey: Guid(a6ac48472bfcfdf45b71b23854922582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_05_Snaps014.prefab using Guid(a6ac48472bfcfdf45b71b23854922582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9279f2e0ab22184aa8a57f68f2ed4b37') in 0.008167 seconds 
+  Import took 0.010534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_02_Snaps014.prefab
+  artifactKey: Guid(2af3f418e114f63449df08d788430f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_02_Snaps014.prefab using Guid(2af3f418e114f63449df08d788430f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33a8b085565cee056109ed761e85bbe') in 0.008276 seconds 
+  Import took 0.010679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_02_Snaps014.prefab
+  artifactKey: Guid(b8ac467a4ff3d644d8c49db550637df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_02_Snaps014.prefab using Guid(b8ac467a4ff3d644d8c49db550637df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e3bd3a09590a0fb380bc0123be2b87') in 0.009260 seconds 
+  Import took 0.011584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_Door_01_Snaps014.prefab
+  artifactKey: Guid(6d7e23dbfb7dacf4d9ac57ffd2333314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_Door_01_Snaps014.prefab using Guid(6d7e23dbfb7dacf4d9ac57ffd2333314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7271074a6d8f420803d5e65eb18e385b') in 0.007832 seconds 
+  Import took 0.010179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Bucket_01_Snaps014.prefab
+  artifactKey: Guid(ab2a0bce853442e4f9316bf9c12228ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Bucket_01_Snaps014.prefab using Guid(ab2a0bce853442e4f9316bf9c12228ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c571576124808ceb7782bd16f94222b') in 0.008464 seconds 
+  Import took 0.011089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Restroom_Sink_02_Snaps014.prefab
+  artifactKey: Guid(4acd8de00f609dd48b7c31d68b240bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Restroom_Sink_02_Snaps014.prefab using Guid(4acd8de00f609dd48b7c31d68b240bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a6544dcb0d6850adbc2fe99d711518') in 0.008757 seconds 
+  Import took 0.011115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_02_Snaps014.prefab
+  artifactKey: Guid(12bc33796fc603c479300ad55927d6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_02_Snaps014.prefab using Guid(12bc33796fc603c479300ad55927d6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4b1bf8e52f4c2e43d56d8f221ad66f') in 0.007831 seconds 
+  Import took 0.010213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Toilet_03_Snaps014.prefab
+  artifactKey: Guid(6042812f37f2b00438719e1775ea9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Toilet_03_Snaps014.prefab using Guid(6042812f37f2b00438719e1775ea9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebebe7235b6da38bbc57f59e036fde16') in 0.009659 seconds 
+  Import took 0.012073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_04_Snaps014.prefab
+  artifactKey: Guid(3ccad6595429ea5439049c4760fd8d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_04_Snaps014.prefab using Guid(3ccad6595429ea5439049c4760fd8d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6391f2876b4b715d9bcfea9b5726ef5f') in 0.007836 seconds 
+  Import took 0.010220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_03_Snaps014.prefab
+  artifactKey: Guid(7253eb6a1a7c49146b87a6d0d943a17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_03_Snaps014.prefab using Guid(7253eb6a1a7c49146b87a6d0d943a17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3f4b294a2cf9302e89172aedcce6d2') in 0.009548 seconds 
+  Import took 0.011739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_01_Snaps014.prefab
+  artifactKey: Guid(a670101d783a4c34d830d713ab0bb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_01_Snaps014.prefab using Guid(a670101d783a4c34d830d713ab0bb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396dde7139554d075f65980821b37fbb') in 0.008486 seconds 
+  Import took 0.010922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Restroom_Tashcan_01_Snaps014.prefab
+  artifactKey: Guid(92beb30ec2b7de7439ed5122be569875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Restroom_Tashcan_01_Snaps014.prefab using Guid(92beb30ec2b7de7439ed5122be569875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f2ed74a3df13c9fc7f2d8cb45417fb') in 0.008694 seconds 
+  Import took 0.010932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Holder_01_Snaps014.prefab
+  artifactKey: Guid(9f19cd65406161b479efb6513425a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Holder_01_Snaps014.prefab using Guid(9f19cd65406161b479efb6513425a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989745fc0b4766c786f4bd30b56faacb') in 0.008330 seconds 
+  Import took 0.010662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Fixed_Snaps014.prefab
+  artifactKey: Guid(394e42a597b8927479cccc387cb4753b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Fixed_Snaps014.prefab using Guid(394e42a597b8927479cccc387cb4753b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beb9564d82358bb37df82cd1135c468') in 0.007928 seconds 
+  Import took 0.010415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Plunger_01_Snaps014.prefab
+  artifactKey: Guid(ff2803b46891c0947899845b76a88994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Plunger_01_Snaps014.prefab using Guid(ff2803b46891c0947899845b76a88994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2820fefeca51050b5bb5586e36c16f9d') in 0.008116 seconds 
+  Import took 0.010393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_03_Snaps014.prefab
+  artifactKey: Guid(6aed741a990755948ad2cbe040c923ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_03_Snaps014.prefab using Guid(6aed741a990755948ad2cbe040c923ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85fd323c1d1138f8a4a69583d91be4d') in 0.008065 seconds 
+  Import took 0.010223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_05_Snaps014.prefab
+  artifactKey: Guid(72c920713e2985b47a9c3327829e86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_05_Snaps014.prefab using Guid(72c920713e2985b47a9c3327829e86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c179f22e9eb838ae41534796790a20') in 0.007879 seconds 
+  Import took 0.010377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_04_Snaps014.prefab
+  artifactKey: Guid(5f17b91a339eeb54998aadbcf91349c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Partition_04_Snaps014.prefab using Guid(5f17b91a339eeb54998aadbcf91349c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59581ffc011267a61118e6484c78b89a') in 0.008392 seconds 
+  Import took 0.010719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Toilet_02_Snaps014.prefab
+  artifactKey: Guid(78d3d9b915cf2044186052c105d5f347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Toilet_02_Snaps014.prefab using Guid(78d3d9b915cf2044186052c105d5f347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffec5a74b833bd816930bbe2c7feb24f') in 0.009249 seconds 
+  Import took 0.011498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_03_Snaps014.prefab
+  artifactKey: Guid(533cae1f19d3f3b44a9c417da10f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_Bend_03_Snaps014.prefab using Guid(533cae1f19d3f3b44a9c417da10f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df27e12a494d54dedfd90fa722e65459') in 0.009193 seconds 
+  Import took 0.011598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Mirror_01_Snaps014.prefab
+  artifactKey: Guid(6243cf7b31b093743b50dc8b8257a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Mirror_01_Snaps014.prefab using Guid(6243cf7b31b093743b50dc8b8257a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf01c882d9055221b873ee5e05323c5') in 0.007702 seconds 
+  Import took 0.010122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Toilet_01_Snaps014.prefab
+  artifactKey: Guid(db1fbc7cf5459444d84060e88a1e7aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Toilet_01_Snaps014.prefab using Guid(db1fbc7cf5459444d84060e88a1e7aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30368b9a7ae9cc7156cd6311fe87e8e3') in 0.009840 seconds 
+  Import took 0.012215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_01_Snaps014.prefab
+  artifactKey: Guid(8c06558e28e60af4aae6fd06c352d16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Bathroom/Pipe_01_Snaps014.prefab using Guid(8c06558e28e60af4aae6fd06c352d16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df2784766fb5584dc479898c098ecb6') in 0.009135 seconds 
+  Import took 0.013922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 686.189830 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/Ball_Pen_01_Snaps014.prefab
+  artifactKey: Guid(efb9cfe4501a9f14a90a6d7d0b9ce460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/Ball_Pen_01_Snaps014.prefab using Guid(efb9cfe4501a9f14a90a6d7d0b9ce460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404995e31884868cfbac22df9b005a0e') in 0.015175 seconds 
+  Import took 0.017938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.312225 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Attendance_Book_01_Snaps014.asset
+  artifactKey: Guid(1f49fbf81fbbe3c469d713631e49c36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Attendance_Book_01_Snaps014.asset using Guid(1f49fbf81fbbe3c469d713631e49c36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba65d220c5923d6066bc00ece9985b91') in 0.179814 seconds 
+  Import took 0.186563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Casing.asset
+  artifactKey: Guid(aacf1d13881c78d419c1d6a9e5b90aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Casing.asset using Guid(aacf1d13881c78d419c1d6a9e5b90aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0ba970ef28d8ec4537b1c010bce06b') in 0.016772 seconds 
+  Import took 0.019132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_09_Snaps014.asset
+  artifactKey: Guid(dc472d63ad16b1a40b1650fa10b23a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_09_Snaps014.asset using Guid(dc472d63ad16b1a40b1650fa10b23a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cf26212dae4ad0667efe3748a54a83') in 0.007466 seconds 
+  Import took 0.009734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Ball_Pen_01_Snaps014.asset
+  artifactKey: Guid(d15022822cbb6f74c8ee4c604d99c400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Ball_Pen_01_Snaps014.asset using Guid(d15022822cbb6f74c8ee4c604d99c400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2a75446132c1053eebad5b87b46ab5') in 0.024367 seconds 
+  Import took 0.026937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Eraser_01_Snaps014.asset
+  artifactKey: Guid(1e801276372dabf42a3ed33698931509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Eraser_01_Snaps014.asset using Guid(1e801276372dabf42a3ed33698931509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d12484bc037ce74a4dc375ffde66bd2') in 0.008934 seconds 
+  Import took 0.011233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Counter01_Snaps014.asset
+  artifactKey: Guid(4f94b92adc4336f4c8506f7da8ca1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Counter01_Snaps014.asset using Guid(4f94b92adc4336f4c8506f7da8ca1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d6bdfb063f557f20188b088cf57f6c') in 0.014826 seconds 
+  Import took 0.017564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Awards_01_Snaps014.asset
+  artifactKey: Guid(76946e29acc04294d89069d487b97a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Awards_01_Snaps014.asset using Guid(76946e29acc04294d89069d487b97a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d600412246bc3ae78bbc99111c30fd') in 0.009924 seconds 
+  Import took 0.012473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Bag_02_Snaps014.asset
+  artifactKey: Guid(8b16ca30917d08749af6cf800ef151c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Bag_02_Snaps014.asset using Guid(8b16ca30917d08749af6cf800ef151c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570df543e5a103ab29b4a7d6f174dae1') in 0.007758 seconds 
+  Import took 0.010010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_03_Snaps014.asset
+  artifactKey: Guid(35283cfca33e3444f9c8bbaff90c0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_03_Snaps014.asset using Guid(35283cfca33e3444f9c8bbaff90c0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f76b19607984657c022902066114396') in 0.007069 seconds 
+  Import took 0.009982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_07_Snaps014.asset
+  artifactKey: Guid(8fccbde3413929148b3a16113c5a7fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_07_Snaps014.asset using Guid(8fccbde3413929148b3a16113c5a7fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a241228d7db63e8dd9198297dfa422c7') in 0.006721 seconds 
+  Import took 0.008913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000850 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Curtain01_rail_Snaps014.asset
+  artifactKey: Guid(ac8acada7d983ba4bb40653e1521be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Curtain01_rail_Snaps014.asset using Guid(ac8acada7d983ba4bb40653e1521be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889cc8636773e662c7aef5988469d902') in 0.013539 seconds 
+  Import took 0.015841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_02_Snaps014.asset
+  artifactKey: Guid(1a0b96685f95c084cab7a0d57fb2bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_02_Snaps014.asset using Guid(1a0b96685f95c084cab7a0d57fb2bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a01b96ba35d7e485923a46f788eac2b') in 0.007469 seconds 
+  Import took 0.009782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Awards_02_Snaps014.asset
+  artifactKey: Guid(f9a9d25395ed4774598eda0190b64792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Awards_02_Snaps014.asset using Guid(f9a9d25395ed4774598eda0190b64792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210489c7402b62332d10f804bf203dde') in 0.007087 seconds 
+  Import took 0.009669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chair_01_Snaps014.asset
+  artifactKey: Guid(2ade61a1c13356741937b15bce668b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chair_01_Snaps014.asset using Guid(2ade61a1c13356741937b15bce668b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40a857e443bbf006ade58662d7fc433') in 0.008567 seconds 
+  Import took 0.011020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Curtain_01_Snaps014.asset
+  artifactKey: Guid(29df01fcfa820be488c356f4623b2817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Curtain_01_Snaps014.asset using Guid(29df01fcfa820be488c356f4623b2817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd5f0978666c22160ba4a51e7cff122') in 0.009805 seconds 
+  Import took 0.012331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Desk_01_Snaps014.asset
+  artifactKey: Guid(a95ab372a0e02ba4194d0a8ceea4f314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Desk_01_Snaps014.asset using Guid(a95ab372a0e02ba4194d0a8ceea4f314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe15d8ac14beff2abdf9ee22e61d2fc7') in 0.007664 seconds 
+  Import took 0.010108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_10_Snaps014.asset
+  artifactKey: Guid(f98af8ab2a87c1e4eb36b85f616771b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_10_Snaps014.asset using Guid(f98af8ab2a87c1e4eb36b85f616771b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b806b8ecd0aa2006541caf9fbd4d179') in 0.006965 seconds 
+  Import took 0.009263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_04_Snaps014.asset
+  artifactKey: Guid(592081fc11b093e4f88b21643e4493e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_04_Snaps014.asset using Guid(592081fc11b093e4f88b21643e4493e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfd497e68c551db075cfe8c5562b771') in 0.006976 seconds 
+  Import took 0.009200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Ball_Pen_02_Snaps014.asset
+  artifactKey: Guid(8c54b95584c40064c946ad3f6afdb0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Ball_Pen_02_Snaps014.asset using Guid(8c54b95584c40064c946ad3f6afdb0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7923fd1821a049575bd3a1adc179ace0') in 0.006456 seconds 
+  Import took 0.008791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_05_Snaps014.asset
+  artifactKey: Guid(167c0d9e7aa4ca9418972c5726974538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_05_Snaps014.asset using Guid(167c0d9e7aa4ca9418972c5726974538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab5311388010080aed738e3af302df8') in 0.007120 seconds 
+  Import took 0.009547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_03_Snaps014.asset
+  artifactKey: Guid(cdf94a812580ee64c9aaecda554ae4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_03_Snaps014.asset using Guid(cdf94a812580ee64c9aaecda554ae4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6345dbf30cb4f773d69d4429cdc04ba1') in 0.008175 seconds 
+  Import took 0.010473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Burglar_Alarm_01_Snaps014.asset
+  artifactKey: Guid(1a1514f5f26e53e4b9792cf464c3d8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Burglar_Alarm_01_Snaps014.asset using Guid(1a1514f5f26e53e4b9792cf464c3d8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7011a65fc4fa6681c96799978769d39b') in 0.007133 seconds 
+  Import took 0.009556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_holder_02_Snaps014.asset
+  artifactKey: Guid(2fcba31615e350b47ba97e79d4342b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_holder_02_Snaps014.asset using Guid(2fcba31615e350b47ba97e79d4342b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe4479c87d9526eefaab7864689f725') in 0.006910 seconds 
+  Import took 0.009136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/File_Pocket_01_Snaps014.asset
+  artifactKey: Guid(faeba45d52a8eec4c85dc432355a0028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/File_Pocket_01_Snaps014.asset using Guid(faeba45d52a8eec4c85dc432355a0028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0220322c51db7f6c2f19a861c972ad') in 0.009321 seconds 
+  Import took 0.011518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Bag_03_Snaps014.asset
+  artifactKey: Guid(74762726f7f52d64fb3d5d605625f2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Bag_03_Snaps014.asset using Guid(74762726f7f52d64fb3d5d605625f2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35951aace3c697c3e39cfb5f9249b08a') in 0.008524 seconds 
+  Import took 0.010730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Awards_03_Snaps014.asset
+  artifactKey: Guid(80d0db94d1280c4449bf5ea01f20a316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Awards_03_Snaps014.asset using Guid(80d0db94d1280c4449bf5ea01f20a316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73b2748c041818b16dbf228d5b44b90') in 0.008456 seconds 
+  Import took 0.010815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_05_Snaps014.asset
+  artifactKey: Guid(09e63915303a42843aeb79e1f500dbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_05_Snaps014.asset using Guid(09e63915303a42843aeb79e1f500dbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c54d74a1930e079fdd4f75b9db6e12') in 0.010640 seconds 
+  Import took 0.012881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_01_Snaps014.asset
+  artifactKey: Guid(a76fde75d9402a0428e163e9c3ce548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_01_Snaps014.asset using Guid(a76fde75d9402a0428e163e9c3ce548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e0f9ba6f029154ae551741239ad642') in 0.007611 seconds 
+  Import took 0.009910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_04_Snaps014.asset
+  artifactKey: Guid(4d005d87904714d4599802f3852fb171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_04_Snaps014.asset using Guid(4d005d87904714d4599802f3852fb171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2932c76ed1f7fde72a65f48411b0422c') in 0.006541 seconds 
+  Import took 0.008725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Curtain_02_Snaps014.asset
+  artifactKey: Guid(3b504c84bfb641c48aa6dc9a794a0a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Curtain_02_Snaps014.asset using Guid(3b504c84bfb641c48aa6dc9a794a0a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2432bfa2e426ea4c0862781271684319') in 0.009594 seconds 
+  Import took 0.011850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Flipped_01_Snaps014.asset
+  artifactKey: Guid(de1c4c59241ec60479a8f95e8c7781f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Flipped_01_Snaps014.asset using Guid(de1c4c59241ec60479a8f95e8c7781f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea793ac5186323e4b358a2a5480c8e90') in 0.006799 seconds 
+  Import took 0.009059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Fan_01_Snaps014.asset
+  artifactKey: Guid(e7e8f79aaa211a1478863ccbf9960909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Fan_01_Snaps014.asset using Guid(e7e8f79aaa211a1478863ccbf9960909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e0c502983caf959389097f383793a6') in 0.011869 seconds 
+  Import took 0.014219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Blackboard_01_Snaps014.asset
+  artifactKey: Guid(cb7f086ff2e06f74aa5383bcd8951934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Blackboard_01_Snaps014.asset using Guid(cb7f086ff2e06f74aa5383bcd8951934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c4bdf19cd677947ad0cfcb3501e20c') in 0.007196 seconds 
+  Import took 0.009716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_01_Snaps014.asset
+  artifactKey: Guid(f6ae7b264d3ea3c40af76904aa1dca18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_01_Snaps014.asset using Guid(f6ae7b264d3ea3c40af76904aa1dca18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5947bef72abe4cc3419a721592fe7b6') in 0.006225 seconds 
+  Import took 0.008550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Broom_01_Snaps014.asset
+  artifactKey: Guid(ff4f818901ac81446a14aea03ae500d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Broom_01_Snaps014.asset using Guid(ff4f818901ac81446a14aea03ae500d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73143119cb16df41df08d084481b8b90') in 0.006766 seconds 
+  Import took 0.009091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chair_01_Collider.asset
+  artifactKey: Guid(9da9c966e0351274d852cc6254a99623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chair_01_Collider.asset using Guid(9da9c966e0351274d852cc6254a99623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6f6856be3f3cbf18ef4e81295334e1') in 0.010273 seconds 
+  Import took 0.012501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_holder_01_Snaps014.asset
+  artifactKey: Guid(c50c34ad7247da74ba860812a6584035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_holder_01_Snaps014.asset using Guid(c50c34ad7247da74ba860812a6584035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea08f91a1b92f2f863ad8bfb1c568f1') in 0.007079 seconds 
+  Import took 0.009530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Bag_01_Snaps014.asset
+  artifactKey: Guid(25fc66e64f7a36142bcb452755c02aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Bag_01_Snaps014.asset using Guid(25fc66e64f7a36142bcb452755c02aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57677e9c43480a24d5069dac594ee67') in 0.009773 seconds 
+  Import took 0.012371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Board_01_Snaps014.asset
+  artifactKey: Guid(ce50b7ceaba39eb4bb90de012cd65662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Board_01_Snaps014.asset using Guid(ce50b7ceaba39eb4bb90de012cd65662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d973b4e286f8b283d77934e81b176a') in 0.008403 seconds 
+  Import took 0.010911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_08_Snaps014.asset
+  artifactKey: Guid(9dcac7ce1b566bf4786b4862bcaf0856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_08_Snaps014.asset using Guid(9dcac7ce1b566bf4786b4862bcaf0856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35531c3c7fa1c464eeb55fe7634d658c') in 0.009061 seconds 
+  Import took 0.011552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_06_Snaps014.asset
+  artifactKey: Guid(fd0518f21ea536043a33fc8a1534c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Book_06_Snaps014.asset using Guid(fd0518f21ea536043a33fc8a1534c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2a4de24f11810100b8a8595d632ac9') in 0.006457 seconds 
+  Import took 0.008722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Clock_01_Snaps014.asset
+  artifactKey: Guid(1643e5240b2e18d42805269854420ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Clock_01_Snaps014.asset using Guid(1643e5240b2e18d42805269854420ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe6da83cec586504cf13c99c22d64e9') in 0.006468 seconds 
+  Import took 0.008858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Attendance_Book_02_Snaps014.asset
+  artifactKey: Guid(b48f14aa3a0c56b4e9b3eb417741f5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Attendance_Book_02_Snaps014.asset using Guid(b48f14aa3a0c56b4e9b3eb417741f5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0affd39ec19375f858688a4fa2bf18c6') in 0.006263 seconds 
+  Import took 0.008524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Blade.asset
+  artifactKey: Guid(2f7cf61d78d27af4982ed6b76cd72678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Blade.asset using Guid(2f7cf61d78d27af4982ed6b76cd72678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f13226688df1a4c99d9d5e520c2d34b') in 0.006688 seconds 
+  Import took 0.008929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_02_Snaps014.asset
+  artifactKey: Guid(2d1a46fd67db0b9418876d0598ec2ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Classroom/meshes/Chalk_02_Snaps014.asset using Guid(2d1a46fd67db0b9418876d0598ec2ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81833d2341949924556c6f7cff88f92') in 0.007926 seconds 
+  Import took 0.010138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.965446 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Stair/Module/meshes/Baseboard_01_Snaps014.asset
+  artifactKey: Guid(f8a96fa8d34d4a04da4ffdfc1c6a6661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Stair/Module/meshes/Baseboard_01_Snaps014.asset using Guid(f8a96fa8d34d4a04da4ffdfc1c6a6661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b3e6c9c59e23fef9bd82f3ef36f39f') in 0.013444 seconds 
+  Import took 0.019948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Pillar/meshes/Beam_01_Snaps014.asset
+  artifactKey: Guid(ed6e858ada3bbc044a1585cae41499a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Pillar/meshes/Beam_01_Snaps014.asset using Guid(ed6e858ada3bbc044a1585cae41499a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03a42a47776c85de8405448ecbf2364') in 0.006566 seconds 
+  Import took 0.008883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Stair/Module/meshes/Baseboard_03_Snaps014.asset
+  artifactKey: Guid(734b04bbab445414ca0a59622e732938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Stair/Module/meshes/Baseboard_03_Snaps014.asset using Guid(734b04bbab445414ca0a59622e732938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e3f246fbe132d4410818d081a1397c') in 0.013312 seconds 
+  Import took 0.015679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Stair/Module/meshes/Baseboard_04_Snaps014.asset
+  artifactKey: Guid(f06b9966ae813e54790177bc651998bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Stair/Module/meshes/Baseboard_04_Snaps014.asset using Guid(f06b9966ae813e54790177bc651998bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1deafb827ffd555f46df6695fabb1c0') in 0.007817 seconds 
+  Import took 0.010475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Stair/Module/meshes/Baseboard_02_Snaps014.asset
+  artifactKey: Guid(4b66846b36f39f649849d54684428150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Structure/Stair/Module/meshes/Baseboard_02_Snaps014.asset using Guid(4b66846b36f39f649849d54684428150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42443ee5b8e386ce92f87db52bcaae6') in 0.007550 seconds 
+  Import took 0.010076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.579803 seconds.
+  path: Assets/school/Prefabs/road
+  artifactKey: Guid(3971f944cb563c44abff18954cc780c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/road using Guid(3971f944cb563c44abff18954cc780c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c41753c8fc1b6c67c0b031faaa18d33') in 0.001272 seconds 
+  Import took 0.004540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107233 seconds.
+  path: Assets/school/Prefabs/road/doroga — krest.prefab
+  artifactKey: Guid(bc6109ee673f0a244981c84f7b064a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/road/doroga — krest.prefab using Guid(bc6109ee673f0a244981c84f7b064a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546898ce48a62a0bed94a4adf588ce3a') in 0.012433 seconds 
+  Import took 0.015087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/school/Prefabs/road/floor1.prefab
+  artifactKey: Guid(be4105263a3576a4a9d8bb22a5f5ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/road/floor1.prefab using Guid(be4105263a3576a4a9d8bb22a5f5ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986f944ecadd32b8f73dadef4209f8f1') in 0.007908 seconds 
+  Import took 0.010185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/school/Prefabs/road/floor.prefab
+  artifactKey: Guid(405988af1bd38ee4fb92e86058b6c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/road/floor.prefab using Guid(405988af1bd38ee4fb92e86058b6c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e950f8108e023e6cf54c067951ed8428') in 0.007994 seconds 
+  Import took 0.010394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/school/Prefabs/road/doroga.prefab
+  artifactKey: Guid(5b97ca6353ad429419598d36d1a55e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/road/doroga.prefab using Guid(5b97ca6353ad429419598d36d1a55e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f817aed8b9ca261407b476bc02c3bf') in 0.008064 seconds 
+  Import took 0.010275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.389848 seconds.
+  path: Assets/school/Prefabs/props
+  artifactKey: Guid(c084cb9a2841b844ebc3f36760cb622d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props using Guid(c084cb9a2841b844ebc3f36760cb622d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e5c564299b5526057b7c2d8c4967fa') in 0.001291 seconds 
+  Import took 0.004150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065573 seconds.
+  path: Assets/school/Prefabs/props/a door.prefab
+  artifactKey: Guid(c46afe706fb2cde4883f7afaeaa67a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/a door.prefab using Guid(c46afe706fb2cde4883f7afaeaa67a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a793ff29b004cef5db3a4b1d1e0da08c') in 0.018700 seconds 
+  Import took 0.021562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/school/Prefabs/props/book3.prefab
+  artifactKey: Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book3.prefab using Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb27fea33e79f171349352381676f09d') in 0.009595 seconds 
+  Import took 0.012051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/school/Prefabs/props/board.prefab
+  artifactKey: Guid(adb1204842363d949b4b739100f86523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/board.prefab using Guid(adb1204842363d949b4b739100f86523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ad78fa55619447e7b61c6fb6518a2c') in 0.007956 seconds 
+  Import took 0.010381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/school/Prefabs/props/computer1.prefab
+  artifactKey: Guid(8430fd56cfcb15941a1f31ea7f8f1915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/computer1.prefab using Guid(8430fd56cfcb15941a1f31ea7f8f1915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad26d6ac41819c56b7cb66021bf12c5') in 0.007572 seconds 
+  Import took 0.009853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/school/Prefabs/props/locker1.prefab
+  artifactKey: Guid(7d65db92ee1ad5644a8177816885460b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/locker1.prefab using Guid(7d65db92ee1ad5644a8177816885460b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b649d46f48f4adc3ef6a0fb357a1ac47') in 0.007049 seconds 
+  Import took 0.009263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/school/Prefabs/props/book8.prefab
+  artifactKey: Guid(945770b7f59f57549bb3e854e77a1de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book8.prefab using Guid(945770b7f59f57549bb3e854e77a1de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8955d405120645377ff84350669fe4') in 0.007210 seconds 
+  Import took 0.009397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/school/Prefabs/props/board2_2 1.prefab
+  artifactKey: Guid(fe495e6bdadd4254199eb7ad0b26898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/board2_2 1.prefab using Guid(fe495e6bdadd4254199eb7ad0b26898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d757d89c22b67f7ad56500d8d488d7') in 0.007895 seconds 
+  Import took 0.010538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/school/Prefabs/props/board2_1.prefab
+  artifactKey: Guid(b3341dfb909e87841afc69dcda0971e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/board2_1.prefab using Guid(b3341dfb909e87841afc69dcda0971e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e62ba653791cc89621d54aa3709a5a3') in 0.007866 seconds 
+  Import took 0.010326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/school/Prefabs/props/board2_2.prefab
+  artifactKey: Guid(f16c1a01fe11a1c4499b6704e5007d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/board2_2.prefab using Guid(f16c1a01fe11a1c4499b6704e5007d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1413e53d23e70bb27679067b9ba3f4') in 0.007063 seconds 
+  Import took 0.009515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/school/Prefabs/props/book15.prefab
+  artifactKey: Guid(eb1f778dad1ad1243a12348ffbf99b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book15.prefab using Guid(eb1f778dad1ad1243a12348ffbf99b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8aad33de047a6c679ffe219ba8eae3') in 0.007436 seconds 
+  Import took 0.009716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/school/Prefabs/props/a laptop.prefab
+  artifactKey: Guid(ec15f5ae191975f4d8de236356aaec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/a laptop.prefab using Guid(ec15f5ae191975f4d8de236356aaec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fc91585a5242485567fc887ebd05d9') in 0.007911 seconds 
+  Import took 0.010173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/school/Prefabs/props/book16.prefab
+  artifactKey: Guid(c0acf536785cb4e4fba0b089e2ecd662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book16.prefab using Guid(c0acf536785cb4e4fba0b089e2ecd662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3fa25b0ee4a7f7c857246bc0fa4990') in 0.007820 seconds 
+  Import took 0.009944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/school/Prefabs/props/book12.prefab
+  artifactKey: Guid(70c302f8c134149459c53486998e3785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book12.prefab using Guid(70c302f8c134149459c53486998e3785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75be76b473918d409b731b073cc7bd94') in 0.008016 seconds 
+  Import took 0.010162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/school/Prefabs/props/locker_1.prefab
+  artifactKey: Guid(4af7da65169b48c47b3b86e7d6323744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/locker_1.prefab using Guid(4af7da65169b48c47b3b86e7d6323744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861175fd7f3997763cbe8bc6e1690fe9') in 0.008139 seconds 
+  Import took 0.010401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/school/Prefabs/props/book10.prefab
+  artifactKey: Guid(131fbc6a61b707e43a1a9cc37ce27999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book10.prefab using Guid(131fbc6a61b707e43a1a9cc37ce27999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb1493ae0d8822bb49e493eb0270e16') in 0.007859 seconds 
+  Import took 0.010083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/school/Prefabs/props/book7.prefab
+  artifactKey: Guid(b4335bd599706fd488e027758d9ff789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book7.prefab using Guid(b4335bd599706fd488e027758d9ff789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb5825370de3a83e39d766c9cdf2a31') in 0.007575 seconds 
+  Import took 0.009843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/school/Prefabs/props/locker_2.prefab
+  artifactKey: Guid(62b11dd993aa50e42a0890a734908161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/locker_2.prefab using Guid(62b11dd993aa50e42a0890a734908161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc44561ecd2d3e8ec4831fbcbe0ffea') in 0.007680 seconds 
+  Import took 0.010226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/school/Prefabs/props/locker.prefab
+  artifactKey: Guid(c2eb0536a6bbfb94590dc4ae7eb803da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/locker.prefab using Guid(c2eb0536a6bbfb94590dc4ae7eb803da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7c5a78512741c002a33358b6df7acc') in 0.007472 seconds 
+  Import took 0.009811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/school/Prefabs/props/fire1.prefab
+  artifactKey: Guid(4bc798f368a5f214ba2ad9cc17bc9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/fire1.prefab using Guid(4bc798f368a5f214ba2ad9cc17bc9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53370f30b8b1b4714685cbd9e5430bd') in 0.007176 seconds 
+  Import took 0.009374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/school/Prefabs/props/locker2.prefab
+  artifactKey: Guid(5c2334af47df6454c9e2eaadbfaa2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/locker2.prefab using Guid(5c2334af47df6454c9e2eaadbfaa2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3829f323d5084460ff1c1e5f00144ab') in 0.007765 seconds 
+  Import took 0.010165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/school/Prefabs/props/book14.prefab
+  artifactKey: Guid(e14704938d821e14d8561c810691b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book14.prefab using Guid(e14704938d821e14d8561c810691b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1026e0ff8cac9c7bf4e5cdb432c9d362') in 0.008151 seconds 
+  Import took 0.010549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/school/Prefabs/props/board1.prefab
+  artifactKey: Guid(883fda0b73369fe41bc2ed262338a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/board1.prefab using Guid(883fda0b73369fe41bc2ed262338a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2cce6a753043ce011f9dff8c27a65c') in 0.007455 seconds 
+  Import took 0.009665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/school/Prefabs/props/book4.prefab
+  artifactKey: Guid(e71f88c62ec6ec749b9da3c66033409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book4.prefab using Guid(e71f88c62ec6ec749b9da3c66033409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cdba4a55560406ceca4775ef7ade81') in 0.007581 seconds 
+  Import took 0.009761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/school/Prefabs/props/book6.prefab
+  artifactKey: Guid(911f1ee2448dad14e8a9f895e1f5621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book6.prefab using Guid(911f1ee2448dad14e8a9f895e1f5621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc6b759f96de13310406db0f9ef7777') in 0.007337 seconds 
+  Import took 0.009562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/school/Prefabs/props/computer3.prefab
+  artifactKey: Guid(eae94336b6079e8469f20b721b0474cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/computer3.prefab using Guid(eae94336b6079e8469f20b721b0474cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b0115498a04e070528777fb3bb4fbf') in 0.007706 seconds 
+  Import took 0.010035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/school/Prefabs/props/board2_1 1.prefab
+  artifactKey: Guid(1b8fb463cd54a3347a65b53783a48afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/board2_1 1.prefab using Guid(1b8fb463cd54a3347a65b53783a48afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e169738f19eba9501e48cc9572bc293e') in 0.007593 seconds 
+  Import took 0.009895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/school/Prefabs/props/book11.prefab
+  artifactKey: Guid(26790024c0a59a4459d89f66a856faa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book11.prefab using Guid(26790024c0a59a4459d89f66a856faa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b2ae29d166fb04c0f85c56fbefb9fe') in 0.007496 seconds 
+  Import took 0.009959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/school/Prefabs/props/book5.prefab
+  artifactKey: Guid(e0a660c9a16ebaa409248e8f87be4086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book5.prefab using Guid(e0a660c9a16ebaa409248e8f87be4086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e79ba26ab1a2093105170044373f3cc') in 0.008241 seconds 
+  Import took 0.010437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/school/Prefabs/props/board2.prefab
+  artifactKey: Guid(a5387be5615ab204780e8b46f7b3a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/board2.prefab using Guid(a5387be5615ab204780e8b46f7b3a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcf43dc853cabf757a066765e77ea22') in 0.007601 seconds 
+  Import took 0.010014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/school/Prefabs/props/book13.prefab
+  artifactKey: Guid(a2d69f66b9cfcbb41adcd641f6757042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book13.prefab using Guid(a2d69f66b9cfcbb41adcd641f6757042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc150179a9e4e48a465bdfa79ff26e88') in 0.009086 seconds 
+  Import took 0.011596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/school/Prefabs/props/chair1.prefab
+  artifactKey: Guid(991e8973513e2ad408232c1afeb3a9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/chair1.prefab using Guid(991e8973513e2ad408232c1afeb3a9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be45033ee7d930804c381c2fc03c7dd') in 0.007253 seconds 
+  Import took 0.009566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/school/Prefabs/props/bus.prefab
+  artifactKey: Guid(876481ee83f852b49901155a05d155d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/bus.prefab using Guid(876481ee83f852b49901155a05d155d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd18eba6315f1047ef0e4f3ce27226c') in 0.008737 seconds 
+  Import took 0.011236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/school/Prefabs/props/computer.prefab
+  artifactKey: Guid(95b7030fe576ba84e930b6af82eb2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/computer.prefab using Guid(95b7030fe576ba84e930b6af82eb2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bc02309e8afffb6f54e2b22de2eb53') in 0.007411 seconds 
+  Import took 0.009713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/school/Prefabs/props/fire.prefab
+  artifactKey: Guid(9b95a03e0e9ba914da4f1c7fb5a46ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/fire.prefab using Guid(9b95a03e0e9ba914da4f1c7fb5a46ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db89a6878ed555bb512468b44834c5') in 0.007610 seconds 
+  Import took 0.010130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003858 seconds.
+  path: Assets/school/Prefabs/props/board2_2 (1).prefab
+  artifactKey: Guid(a92085e8cbdc326489fbf320d2c745d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/board2_2 (1).prefab using Guid(a92085e8cbdc326489fbf320d2c745d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530e25419d1df6ddd6fcf22607e4e0b4') in 0.008266 seconds 
+  Import took 0.011028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/school/Prefabs/props/computer2.prefab
+  artifactKey: Guid(c9909a6c1892fd04cb840ad5329e558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/computer2.prefab using Guid(c9909a6c1892fd04cb840ad5329e558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46e6d6e1374918a6ef16ce2920f7798') in 0.008087 seconds 
+  Import took 0.010341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/school/Prefabs/props/book2.prefab
+  artifactKey: Guid(72c1249698983ad4988f693663fa1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book2.prefab using Guid(72c1249698983ad4988f693663fa1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263cc4a3f91c13ef031b1e2c4af933cb') in 0.007930 seconds 
+  Import took 0.010514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/school/Prefabs/props/book9.prefab
+  artifactKey: Guid(d74135662f1cf2049b7ad36d7a117892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book9.prefab using Guid(d74135662f1cf2049b7ad36d7a117892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a397158053b58598c8da2a96f37d1a5d') in 0.007952 seconds 
+  Import took 0.010346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/school/Prefabs/props/book.prefab
+  artifactKey: Guid(924e5835feca5774baf83fefc095dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book.prefab using Guid(924e5835feca5774baf83fefc095dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267b1f27d7502b2970fdcbd8adf9fa7a') in 0.007618 seconds 
+  Import took 0.010053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/school/Prefabs/props/jalousie.prefab
+  artifactKey: Guid(f67ff9d455ede6d448bdf23bc838c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/jalousie.prefab using Guid(f67ff9d455ede6d448bdf23bc838c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e510967946c02f1ca1a21b49a2aad9') in 0.007248 seconds 
+  Import took 0.009504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/school/Prefabs/props/locker_3.prefab
+  artifactKey: Guid(0480571cf64de034d9d908aa51157db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/locker_3.prefab using Guid(0480571cf64de034d9d908aa51157db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3755fd8896da9ddbcb4d05d2c66fab') in 0.007920 seconds 
+  Import took 0.010265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/school/Prefabs/props/chair.prefab
+  artifactKey: Guid(5a652a60006d6ec46980e623412396f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/chair.prefab using Guid(5a652a60006d6ec46980e623412396f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02811b92f2a6c3df030df69e0a4dc661') in 0.007522 seconds 
+  Import took 0.010063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/school/Prefabs/props/a door1.prefab
+  artifactKey: Guid(54fc4a62ccb7e304f910c5444e778f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/a door1.prefab using Guid(54fc4a62ccb7e304f910c5444e778f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0242bc390adde00983fe3deacb123c') in 0.008048 seconds 
+  Import took 0.010386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/school/Prefabs/props/book1.prefab
+  artifactKey: Guid(f35bd34b33d70144ca22184a194ae6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/book1.prefab using Guid(f35bd34b33d70144ca22184a194ae6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8ba48b76a4d79990dc4d4f7a453791') in 0.009928 seconds 
+  Import took 0.012229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/school/Prefabs/props/button.prefab
+  artifactKey: Guid(97ae661c4f5ec684bb00f569e3b354b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/button.prefab using Guid(97ae661c4f5ec684bb00f569e3b354b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75249bf34b2289a8c4db28a14f3cc377') in 0.007803 seconds 
+  Import took 0.010239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.738512 seconds.
+  path: Assets/school/Prefabs/props/locker_4.prefab
+  artifactKey: Guid(685803a48200879419cbf0f982932eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/locker_4.prefab using Guid(685803a48200879419cbf0f982932eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa88fb5fb77497ed3de14615700e4ffc') in 0.007327 seconds 
+  Import took 0.009976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/school/Prefabs/props/sheet3.prefab
+  artifactKey: Guid(5f0122993f7c5324d972bf997e494ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/sheet3.prefab using Guid(5f0122993f7c5324d972bf997e494ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effdf67042c339402f0391cc2ea117aa') in 0.007506 seconds 
+  Import took 0.009886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/school/Prefabs/props/sheet4.prefab
+  artifactKey: Guid(2335e4e4480899f46aabd539af49b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/sheet4.prefab using Guid(2335e4e4480899f46aabd539af49b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0e8fc343436af5ebc53757ffef6c69') in 0.009074 seconds 
+  Import took 0.011565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/school/Prefabs/props/projector.prefab
+  artifactKey: Guid(832c4b3dc1fa4234a995fcbdcce28404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/projector.prefab using Guid(832c4b3dc1fa4234a995fcbdcce28404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7d3970f942c6dbdc34268d89c00e55') in 0.007938 seconds 
+  Import took 0.010264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/school/Prefabs/props/sheet2.prefab
+  artifactKey: Guid(8e7a095165f9b1042be929150f3913f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/sheet2.prefab using Guid(8e7a095165f9b1042be929150f3913f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf18a0f423bf348c7178dadc1480ab2') in 0.014123 seconds 
+  Import took 0.016549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/school/Prefabs/props/rack.prefab
+  artifactKey: Guid(4f9d36e206efd9c408c4487f1d8c65af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/rack.prefab using Guid(4f9d36e206efd9c408c4487f1d8c65af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc0fb6a1001bcf36091088d8250186d') in 0.009191 seconds 
+  Import took 0.011736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/school/Prefabs/props/rack1.prefab
+  artifactKey: Guid(6e8ee28b611f0274dba1617e8888f8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/rack1.prefab using Guid(6e8ee28b611f0274dba1617e8888f8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a208d72e048bf86cfef38e61159b12') in 0.017064 seconds 
+  Import took 0.020116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/school/Prefabs/props/sheet1.prefab
+  artifactKey: Guid(7b5504fec8a3cf94d8d4814735af756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/sheet1.prefab using Guid(7b5504fec8a3cf94d8d4814735af756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7491fdbb6cbcc3dc9aa127ba667af90') in 0.008524 seconds 
+  Import took 0.011158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/school/Prefabs/props/showcase.prefab
+  artifactKey: Guid(07f95da47d340af46b603c05bffc1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/showcase.prefab using Guid(07f95da47d340af46b603c05bffc1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9284764aa9af13e760314d2563af624') in 0.010241 seconds 
+  Import took 0.012500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/school/Prefabs/props/locker_5.prefab
+  artifactKey: Guid(a0fb9817dd6493340b32e1c86fadfc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/locker_5.prefab using Guid(a0fb9817dd6493340b32e1c86fadfc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fb6eb6372d93bcbf01a7efee2118ca') in 0.007406 seconds 
+  Import took 0.009775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/school/Prefabs/props/sheet.prefab
+  artifactKey: Guid(9b19a44036ac44243a6c69a62bcfdbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/sheet.prefab using Guid(9b19a44036ac44243a6c69a62bcfdbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125504bb9c9eb1779a5cffc258b0d358') in 0.007484 seconds 
+  Import took 0.009887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.040604 seconds.
+  path: Assets/school/Prefabs/props/speaker.prefab
+  artifactKey: Guid(5510dbd75f54c1547bcfa4dfea8c488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/speaker.prefab using Guid(5510dbd75f54c1547bcfa4dfea8c488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d659d686da333ab8f8c675b47c938cb') in 0.012666 seconds 
+  Import took 0.017793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/school/Prefabs/props/tray.prefab
+  artifactKey: Guid(985e26fbc81357349904fd1b56692048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/tray.prefab using Guid(985e26fbc81357349904fd1b56692048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cda22547cf9debbed59d6bb985d5da0') in 0.007058 seconds 
+  Import took 0.009332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/school/Prefabs/props/table2.prefab
+  artifactKey: Guid(91dc1ab115d03f04b930f9e619fb953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/table2.prefab using Guid(91dc1ab115d03f04b930f9e619fb953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255a82edc699e357443e870a1d48f932') in 0.008384 seconds 
+  Import took 0.010782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/school/Prefabs/props/wall001.prefab
+  artifactKey: Guid(7218b9728928b894eb1799b26af67733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall001.prefab using Guid(7218b9728928b894eb1799b26af67733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc072bf964a77b14714485ffbbf8036') in 0.008351 seconds 
+  Import took 0.010894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/school/Prefabs/props/wall4.prefab
+  artifactKey: Guid(2d0d657c1182735489e24a5ce302b99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall4.prefab using Guid(2d0d657c1182735489e24a5ce302b99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43fa973fc2a4b8acb2714f3b1ec41c9') in 0.007678 seconds 
+  Import took 0.010189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/school/Prefabs/props/wall.prefab
+  artifactKey: Guid(d8553808ed1fd2a41982e26a8f099b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall.prefab using Guid(d8553808ed1fd2a41982e26a8f099b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbaba0a2f0c77453dfa58859e78166e8') in 0.007470 seconds 
+  Import took 0.009855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/school/Prefabs/props/wall4 (2).prefab
+  artifactKey: Guid(4af663313fdc5d04889a6710948329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall4 (2).prefab using Guid(4af663313fdc5d04889a6710948329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2ff22db9678b4664169f167726f890') in 0.007217 seconds 
+  Import took 0.009542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/school/Prefabs/props/wall2.prefab
+  artifactKey: Guid(935ba91ea5459eb4d8917d5e94bc3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall2.prefab using Guid(935ba91ea5459eb4d8917d5e94bc3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8472d31848f4b307ff9945c99118abf4') in 0.007456 seconds 
+  Import took 0.009858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/school/Prefabs/props/table1.prefab
+  artifactKey: Guid(006691b87ee6ce7429992a2a172ecf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/table1.prefab using Guid(006691b87ee6ce7429992a2a172ecf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d7b920ffedaeef22cbcb1afd230a89') in 0.007355 seconds 
+  Import took 0.009768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/school/Prefabs/props/table3.prefab
+  artifactKey: Guid(6d513e3e97508a3429bc5eac2b8b7145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/table3.prefab using Guid(6d513e3e97508a3429bc5eac2b8b7145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29f6ec7d1eefa6593cfc87b88e2ee32') in 0.010564 seconds 
+  Import took 0.012819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/school/Prefabs/props/wall4 (1).prefab
+  artifactKey: Guid(288b229db858c114299d1bf70ffc95cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall4 (1).prefab using Guid(288b229db858c114299d1bf70ffc95cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045e74a290f029e2a770c32cb46234be') in 0.007362 seconds 
+  Import took 0.009684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.349423 seconds.
+  path: Assets/school/DemoScene/all_objects1_Profiles/PP Profile.asset
+  artifactKey: Guid(eb0c7f947126d924ebdcd292be9be7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/DemoScene/all_objects1_Profiles/PP Profile.asset using Guid(eb0c7f947126d924ebdcd292be9be7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0133ff66c256ca4be25cbca375b9cee9') in 0.002861 seconds 
+  Import took 0.006171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.026443 seconds.
+  path: Assets/school/material/Materials/1.mat
+  artifactKey: Guid(30b92673b9b7ef44c9c11a474d9910c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/material/Materials/1.mat using Guid(30b92673b9b7ef44c9c11a474d9910c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e417986ed4af0063ae57a06345865bc') in 0.114185 seconds 
+  Import took 0.118997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/school/material/Materials/floor_color.mat
+  artifactKey: Guid(1dbcdd8ff94528e48b2ec42b537b1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/material/Materials/floor_color.mat using Guid(1dbcdd8ff94528e48b2ec42b537b1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce334dcc6c78aec3668977e5a0842bbb') in 0.165843 seconds 
+  Import took 0.168029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1665.142890 seconds.
+  path: Assets/school/props/a door.fbx
+  artifactKey: Guid(a1b64279c34bd0a49abf18b790a099b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/a door.fbx using Guid(a1b64279c34bd0a49abf18b790a099b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e946bf5d9d01eb0cecc9b4d3bfb723e') in 0.112272 seconds 
+  Import took 0.125462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/school/props/fire1.fbx
+  artifactKey: Guid(9039d479f37a33c4a81362d04791c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/fire1.fbx using Guid(9039d479f37a33c4a81362d04791c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1938494a089e0346102d0319513645') in 0.017922 seconds 
+  Import took 0.020384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/school/props/book12.fbx
+  artifactKey: Guid(d26fd69ae663eb24a85bb3506b3e3b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book12.fbx using Guid(d26fd69ae663eb24a85bb3506b3e3b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c075fcaaeaa70fc10a4698ec970eb2') in 0.021931 seconds 
+  Import took 0.024275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/school/props/button.fbx
+  artifactKey: Guid(f91d72df50fef7f489d2eeb99baf0c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/button.fbx using Guid(f91d72df50fef7f489d2eeb99baf0c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f2844c10f25736b7572c30beabc4bf') in 0.017690 seconds 
+  Import took 0.019991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/school/props/locker1.fbx
+  artifactKey: Guid(a009d4148ee08684d917c68693f75228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker1.fbx using Guid(a009d4148ee08684d917c68693f75228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba16bc5edb1c31e9f422b3628096638') in 0.018500 seconds 
+  Import took 0.021097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/school/props/computer1.fbx
+  artifactKey: Guid(f0d27de52a7134a4d9d1aab733f51841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/computer1.fbx using Guid(f0d27de52a7134a4d9d1aab733f51841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e439823b0e57763553599936498c8f84') in 0.018023 seconds 
+  Import took 0.020401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/school/props/locker.fbx
+  artifactKey: Guid(a92e660226b52b745a9b7bc5e9794051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker.fbx using Guid(a92e660226b52b745a9b7bc5e9794051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bd071af60a2d6bcab76947f99ddde0') in 0.018972 seconds 
+  Import took 0.021337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/school/props/locker_2.fbx
+  artifactKey: Guid(4961a98492915344fad8693ff35cc1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_2.fbx using Guid(4961a98492915344fad8693ff35cc1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a421efc79df8709bfbfe70dea40d6f5c') in 0.018643 seconds 
+  Import took 0.020948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/school/props/chair.fbx
+  artifactKey: Guid(d7345a77f785f4041aa505b0645df651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/chair.fbx using Guid(d7345a77f785f4041aa505b0645df651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc113872f01efaee3c25830c53660b3') in 0.016254 seconds 
+  Import took 0.018715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/school/props/locker_1.fbx
+  artifactKey: Guid(6c66e7ddb4e3bf94e8581dbdbd34d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_1.fbx using Guid(6c66e7ddb4e3bf94e8581dbdbd34d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d1697eb4300de85b045efd49e2357e') in 0.016015 seconds 
+  Import took 0.018312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/school/props/book2.fbx
+  artifactKey: Guid(98a3eef7f73edd846970e62f64af6a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book2.fbx using Guid(98a3eef7f73edd846970e62f64af6a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae03fcb4176342b25c6da4c5b55240b8') in 0.015348 seconds 
+  Import took 0.017758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/school/props/book13.fbx
+  artifactKey: Guid(2ac56e37ab0b8c84d8aa8020fb2082b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book13.fbx using Guid(2ac56e37ab0b8c84d8aa8020fb2082b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020d4b605490da981246e6d402e46282') in 0.015648 seconds 
+  Import took 0.018005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/school/props/computer2.fbx
+  artifactKey: Guid(fade7d8b155c9e347935a5505346523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/computer2.fbx using Guid(fade7d8b155c9e347935a5505346523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690df1f579dcbcaeb3805a3202d12b30') in 0.015790 seconds 
+  Import took 0.018180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/school/props/board2_2.fbx
+  artifactKey: Guid(bd7e469a6d0e8c44e9dabdd48e4bfb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board2_2.fbx using Guid(bd7e469a6d0e8c44e9dabdd48e4bfb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e221efdc4e74aff3154634f59d356d7e') in 0.015843 seconds 
+  Import took 0.018221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/school/props/bus.fbx
+  artifactKey: Guid(7f54a7cb15b227045b46f8cf3ff5ea83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/bus.fbx using Guid(7f54a7cb15b227045b46f8cf3ff5ea83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f968afab8f86466bd2ded10b488840') in 0.048070 seconds 
+  Import took 0.050608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/school/props/locker_3.fbx
+  artifactKey: Guid(2ef5cccbf9af996448903a637411876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_3.fbx using Guid(2ef5cccbf9af996448903a637411876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d090985b43ddb34f5562d641118127') in 0.018907 seconds 
+  Import took 0.021543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/school/props/book16.fbx
+  artifactKey: Guid(804dc1b5bcbda42449135bc1c93de072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book16.fbx using Guid(804dc1b5bcbda42449135bc1c93de072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30884054e2720f0b34837f21e71e5139') in 0.016839 seconds 
+  Import took 0.019223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/school/props/book7.fbx
+  artifactKey: Guid(c33f36ac04fd4ef4eb1421d50ecb1d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book7.fbx using Guid(c33f36ac04fd4ef4eb1421d50ecb1d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344da0cae991052f100f9aa0fb2ddf48') in 0.015753 seconds 
+  Import took 0.018119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/school/props/chair1.fbx
+  artifactKey: Guid(e3fd7e9d6b3f64648beef3391d3952d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/chair1.fbx using Guid(e3fd7e9d6b3f64648beef3391d3952d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daf46f4e512d6e642e1514b130671a8') in 0.018579 seconds 
+  Import took 0.020913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/school/props/locker2.fbx
+  artifactKey: Guid(3116c0cc8ed12dc4c9fbd857167ae184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker2.fbx using Guid(3116c0cc8ed12dc4c9fbd857167ae184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c6466262850443b031ed31fcb05c38') in 0.017694 seconds 
+  Import took 0.020533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/school/props/book14.fbx
+  artifactKey: Guid(07f0850d4174989458ab5186394dec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book14.fbx using Guid(07f0850d4174989458ab5186394dec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d7dd8a534e4df6c51b93c3e612237f') in 0.017621 seconds 
+  Import took 0.020187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/school/props/book15.fbx
+  artifactKey: Guid(684a936c3957cd24f9bdc028cf0fff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book15.fbx using Guid(684a936c3957cd24f9bdc028cf0fff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a044437aec86799aa89d32e4e3534f9') in 0.018498 seconds 
+  Import took 0.021180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/school/props/computer3.fbx
+  artifactKey: Guid(f31be39be55038b4dbc591468d4b9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/computer3.fbx using Guid(f31be39be55038b4dbc591468d4b9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379e18355a43245e9e92661b61249812') in 0.017755 seconds 
+  Import took 0.020294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/school/props/locker_4.fbx
+  artifactKey: Guid(40ec2e2d4a4457448aef97450f4f9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_4.fbx using Guid(40ec2e2d4a4457448aef97450f4f9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e16599adf785465459a8cba73ddf9c') in 0.014286 seconds 
+  Import took 0.016610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/school/props/book11.fbx
+  artifactKey: Guid(469050c7eb8ed64428b8fb7604b109fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book11.fbx using Guid(469050c7eb8ed64428b8fb7604b109fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e6eb4b6bb849d9192621eaca5383a9') in 0.014616 seconds 
+  Import took 0.017063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/school/props/book10.fbx
+  artifactKey: Guid(6daefe72622a81549b8b756cb5f167cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book10.fbx using Guid(6daefe72622a81549b8b756cb5f167cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c005932769cfb5feda1a76614160fbe') in 0.015464 seconds 
+  Import took 0.017789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/school/props/locker_5.fbx
+  artifactKey: Guid(7b076f4bc078820418c69918ad1d12e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_5.fbx using Guid(7b076f4bc078820418c69918ad1d12e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1a6c58d53f8f98a694fe93c86c7a4c') in 0.022684 seconds 
+  Import took 0.025275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/school/props/jalousie.fbx
+  artifactKey: Guid(f8efd7bda192d6d4c9936256eff57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/jalousie.fbx using Guid(f8efd7bda192d6d4c9936256eff57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d197472f192cb669d3358274be73e5') in 0.018276 seconds 
+  Import took 0.020788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/school/props/book5.fbx
+  artifactKey: Guid(20a2100985022e94da9960c7ad02d896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book5.fbx using Guid(20a2100985022e94da9960c7ad02d896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc54e5d3172a8a89824fc6f28ab206e') in 0.016933 seconds 
+  Import took 0.019426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/school/props/book1.fbx
+  artifactKey: Guid(2ba609b3cfa3a39409cd47125c0b8f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book1.fbx using Guid(2ba609b3cfa3a39409cd47125c0b8f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda686a3ff09e64730cc4bd1a75993b8') in 0.014731 seconds 
+  Import took 0.017079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/school/props/computer.fbx
+  artifactKey: Guid(19da5e77d15e6b246ae6557f5f4c3cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/computer.fbx using Guid(19da5e77d15e6b246ae6557f5f4c3cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1390dece0fb3cc289f292252f58f9b') in 0.014202 seconds 
+  Import took 0.016623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/school/props/a door1.fbx
+  artifactKey: Guid(e7aacb82296e75c41acea0abba4c8978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/a door1.fbx using Guid(e7aacb82296e75c41acea0abba4c8978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3a9689213440b701cb633c5301d606') in 0.035780 seconds 
+  Import took 0.038405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/school/props/book3.fbx
+  artifactKey: Guid(2d9b54e7ef3d1a94eb9be4f4dd931319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book3.fbx using Guid(2d9b54e7ef3d1a94eb9be4f4dd931319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bc7e8299ba2fab884136314b072303') in 0.015554 seconds 
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/school/props/book8.fbx
+  artifactKey: Guid(c84426d852eade14f99559ca019e22ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book8.fbx using Guid(c84426d852eade14f99559ca019e22ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b77a778a4c8c0cc8e8dc273e8ed082') in 0.016141 seconds 
+  Import took 0.018575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/school/props/projector.fbx
+  artifactKey: Guid(72270d1b0c152ed449c796ec8a390366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/projector.fbx using Guid(72270d1b0c152ed449c796ec8a390366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b420d47d2e738c52d374ef781329273f') in 0.017998 seconds 
+  Import took 0.020574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/school/props/board.fbx
+  artifactKey: Guid(5613243e699c34046bcf679855532f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board.fbx using Guid(5613243e699c34046bcf679855532f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd657872f8a44c94895e5cf4445d3cd') in 0.015327 seconds 
+  Import took 0.017653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/school/props/board2.fbx
+  artifactKey: Guid(566a42721c548c54cb9bc534f063aab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board2.fbx using Guid(566a42721c548c54cb9bc534f063aab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1711b3971a970f1d2fc2862c4788be') in 0.017117 seconds 
+  Import took 0.019354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/school/props/book6.fbx
+  artifactKey: Guid(9ba47c7a82616534bbe4f5bc55bfee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book6.fbx using Guid(9ba47c7a82616534bbe4f5bc55bfee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f716f003992c841f32224f07e95b06e') in 0.014870 seconds 
+  Import took 0.017161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/school/props/book9.fbx
+  artifactKey: Guid(6955ffbde79fdc946ba53b35794d8eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book9.fbx using Guid(6955ffbde79fdc946ba53b35794d8eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe98173722dfbaef4535ddfdf392f897') in 0.016713 seconds 
+  Import took 0.018955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/school/props/a laptop.fbx
+  artifactKey: Guid(6a3802d04cb8d4e4d8e354e4a4098cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/a laptop.fbx using Guid(6a3802d04cb8d4e4d8e354e4a4098cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25abd405d9d467d9c0aa45addbb0976') in 0.015908 seconds 
+  Import took 0.018738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/school/props/board2_1.fbx
+  artifactKey: Guid(45565251077e14d4180ee5c2bb5b896d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board2_1.fbx using Guid(45565251077e14d4180ee5c2bb5b896d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3207ca35c380eb7eb88408043028c236') in 0.017241 seconds 
+  Import took 0.019730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/school/props/book.fbx
+  artifactKey: Guid(fe29f3a55c29a794a8d6a3d12b9aca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book.fbx using Guid(fe29f3a55c29a794a8d6a3d12b9aca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e35f7da5eed55e3fc4d1dd6e5eb37d') in 0.015457 seconds 
+  Import took 0.018044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/school/props/book4.fbx
+  artifactKey: Guid(4578924f6ad96474fa87f670025340b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book4.fbx using Guid(4578924f6ad96474fa87f670025340b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f715eff1098e0855faacda1fd4ae062') in 0.015652 seconds 
+  Import took 0.017930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/school/props/board1.fbx
+  artifactKey: Guid(2096cda62bf772342bc7a4aeda6e4a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board1.fbx using Guid(2096cda62bf772342bc7a4aeda6e4a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab086c4a42c722a062d7756b39d6673') in 0.015123 seconds 
+  Import took 0.017369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/school/props/fire.fbx
+  artifactKey: Guid(400505d5a5ae5cc47bc16dc4307f2c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/fire.fbx using Guid(400505d5a5ae5cc47bc16dc4307f2c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e32c37ae391ce99d2a5c3701d8ba97') in 0.015688 seconds 
+  Import took 0.017915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.751291 seconds.
+  path: Assets/school/props/rack.fbx
+  artifactKey: Guid(ca9bd9cdb3fbe8c42bfa1472eb2058fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/rack.fbx using Guid(ca9bd9cdb3fbe8c42bfa1472eb2058fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894d900e21739503396fca0909de40c9') in 0.018793 seconds 
+  Import took 0.021544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/school/props/sheet3.fbx
+  artifactKey: Guid(f9193b59ff4960f49b88d5a868e743f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet3.fbx using Guid(f9193b59ff4960f49b88d5a868e743f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c000b435c514399a580b473ad93e4bef') in 0.019955 seconds 
+  Import took 0.022647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/school/props/sheet2.fbx
+  artifactKey: Guid(481b15e92ed6941478e39061d9935711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet2.fbx using Guid(481b15e92ed6941478e39061d9935711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6012daafdf616e4df8140c87108bc7ef') in 0.016509 seconds 
+  Import took 0.019147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/school/props/sheet.fbx
+  artifactKey: Guid(e3b1441b553239a4681601783740f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet.fbx using Guid(e3b1441b553239a4681601783740f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84b1ac2a4eccc5b30bf7592bf568805') in 0.017755 seconds 
+  Import took 0.020269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/school/props/table1.fbx
+  artifactKey: Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/table1.fbx using Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557d27e2281a3c8b5ca867a493327065') in 0.017011 seconds 
+  Import took 0.019516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/school/props/table2.fbx
+  artifactKey: Guid(428d9da19f0db6d42a12afe656585894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/table2.fbx using Guid(428d9da19f0db6d42a12afe656585894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ac6c5f99dd55938d05008dd44e9797') in 0.016950 seconds 
+  Import took 0.019482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/school/props/sheet4.fbx
+  artifactKey: Guid(26cca21aff10b4545b16cc4b6315157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet4.fbx using Guid(26cca21aff10b4545b16cc4b6315157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0918cbeeba4f8af45f4e60d9613d7204') in 0.015459 seconds 
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/school/props/rack1.fbx
+  artifactKey: Guid(3d58d5cb75277704fbee090d5dc98394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/rack1.fbx using Guid(3d58d5cb75277704fbee090d5dc98394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2206524b2492390180ac6c07679d16f5') in 0.573495 seconds 
+  Import took 0.584628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/school/props/wall4.fbx
+  artifactKey: Guid(65c4b63d3ab1edc4c98cc4216586cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall4.fbx using Guid(65c4b63d3ab1edc4c98cc4216586cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4b8e78bf41cd8b17489246db9c660c') in 0.018041 seconds 
+  Import took 0.020240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/school/props/table3.fbx
+  artifactKey: Guid(0699d22803476344d956abf42dc88970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/table3.fbx using Guid(0699d22803476344d956abf42dc88970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a935d21294772c950bab7bf02520cf') in 0.016182 seconds 
+  Import took 0.018433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/school/props/wall4 (1).fbx
+  artifactKey: Guid(e2c12cc399276f34997617080b02d780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall4 (1).fbx using Guid(e2c12cc399276f34997617080b02d780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e41f3a5c83c297d71f176ce55f35b7') in 0.015212 seconds 
+  Import took 0.018159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/school/props/wall2.fbx
+  artifactKey: Guid(dd0187cdaabbf654d8df9b87b74089f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall2.fbx using Guid(dd0187cdaabbf654d8df9b87b74089f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c850b8485be86d07b130b2bbdfa48b') in 0.015646 seconds 
+  Import took 0.018002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/school/props/wall4 (2).fbx
+  artifactKey: Guid(cc3095fd348d76b4f9cdcaabdaacdf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall4 (2).fbx using Guid(cc3095fd348d76b4f9cdcaabdaacdf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0d73487ee951f663cf0bfd4abca71c') in 0.014939 seconds 
+  Import took 0.017216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/school/props/tray.fbx
+  artifactKey: Guid(cc76c0b780396284a8d4e9fe8d4e7482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/tray.fbx using Guid(cc76c0b780396284a8d4e9fe8d4e7482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3d7a856c594d75317ba3446b34dacd') in 0.015345 seconds 
+  Import took 0.017650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/school/props/wall.fbx
+  artifactKey: Guid(20fa30becf879ae4fbd158795edc156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall.fbx using Guid(20fa30becf879ae4fbd158795edc156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82a70ad45ec6b541271a52b2c311ba0') in 0.014264 seconds 
+  Import took 0.016592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/school/props/showcase.fbx
+  artifactKey: Guid(f368751ca30ac2647a4ec4ce8fed3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/showcase.fbx using Guid(f368751ca30ac2647a4ec4ce8fed3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2085eaeaff91373115197f49e4ba58f') in 0.015673 seconds 
+  Import took 0.017917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/school/props/wall001.fbx
+  artifactKey: Guid(674bca1160f50d546aaac5b261a08000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall001.fbx using Guid(674bca1160f50d546aaac5b261a08000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a6c8e7a226e993c50275fa8fd17c19') in 0.027592 seconds 
+  Import took 0.030291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/school/props/speaker.fbx
+  artifactKey: Guid(2e93ee0f4a411944ca5d229dc4b228e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/speaker.fbx using Guid(2e93ee0f4a411944ca5d229dc4b228e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff58ab5c75bd6394e6851229a8370857') in 0.015009 seconds 
+  Import took 0.017261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/school/props/sheet1.fbx
+  artifactKey: Guid(23b1d8473c4b7404ea0dd7c937deb666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet1.fbx using Guid(23b1d8473c4b7404ea0dd7c937deb666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff862ecf43a67ce7ae423d53b9dace9') in 0.014713 seconds 
+  Import took 0.017074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 693.802844 seconds.
+  path: Assets/school/Prefabs/props/computer1 1.prefab
+  artifactKey: Guid(e3da6b9d496cd4a64a3606aa40ca22f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/computer1 1.prefab using Guid(e3da6b9d496cd4a64a3606aa40ca22f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437c379df15a048cf0e733aab8ae4f9f') in 0.015103 seconds 
+  Import took 0.020032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 519.127846 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Gary_Snaps014.mat
+  artifactKey: Guid(256eee0f82507ec4e95305ef81e78918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Gary_Snaps014.mat using Guid(256eee0f82507ec4e95305ef81e78918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4547b739ff45c0485921755a0be75b3') in 0.015154 seconds 
+  Import took 0.018002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/White_Snaps014.mat
+  artifactKey: Guid(a21f164d1dde7664593a49415e9156ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/White_Snaps014.mat using Guid(a21f164d1dde7664593a49415e9156ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea2326ab2e0d56f8b209bedc11b3952') in 0.007699 seconds 
+  Import took 0.010164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Glass_Snaps014.mat
+  artifactKey: Guid(4ddc43a4badaf7b4c927da90636e454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Glass_Snaps014.mat using Guid(4ddc43a4badaf7b4c927da90636e454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77db4f3b28192b34f9ee11540e7004fb') in 0.009833 seconds 
+  Import took 0.012146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Mirror_Snaps014.mat
+  artifactKey: Guid(96f89d8ef534b8a4f91bfc2fc33055e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/Mirror_Snaps014.mat using Guid(96f89d8ef534b8a4f91bfc2fc33055e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5975a3db3ccd451724efbe7c806a6353') in 0.007909 seconds 
+  Import took 0.010207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/GrayBlue_Snaps014.mat
+  artifactKey: Guid(916495d4942d98e43b5f36a5606b262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Materials/GrayBlue_Snaps014.mat using Guid(916495d4942d98e43b5f36a5606b262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcadbc99fed4a12ecaf4a74815509ba4') in 0.007757 seconds 
+  Import took 0.009835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.763368 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Bulletin_board_01_Snaps014.asset
+  artifactKey: Guid(e85a828631f454a4497bdc5b572470f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Bulletin_board_01_Snaps014.asset using Guid(e85a828631f454a4497bdc5b572470f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887fd0348e0f3dbf22da0016e991b92d') in 0.011477 seconds 
+  Import took 0.014404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_05_Snaps014.asset
+  artifactKey: Guid(e528c1314c2258140955ff468b093ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_05_Snaps014.asset using Guid(e528c1314c2258140955ff468b093ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda3ccc887cf3edf036537a091181423') in 0.007350 seconds 
+  Import took 0.009834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Single_Carport_01_Collider.asset
+  artifactKey: Guid(5bb57acc64833bd408981bbf1069034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Single_Carport_01_Collider.asset using Guid(5bb57acc64833bd408981bbf1069034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f9c57bf650dbef18480ff5a74469df') in 0.009513 seconds 
+  Import took 0.011806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_02_Collider.asset
+  artifactKey: Guid(a188c72a600cb0141b1ea2c72d8e2681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_02_Collider.asset using Guid(a188c72a600cb0141b1ea2c72d8e2681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1373e671d9311529a3328f3e7cef334') in 0.007816 seconds 
+  Import took 0.010092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_03_Snaps014.asset
+  artifactKey: Guid(6f45c3db77020ad43b654d1adb0a0e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_03_Snaps014.asset using Guid(6f45c3db77020ad43b654d1adb0a0e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9751b4a3ee0847405f86e6dcfc606f1b') in 0.008984 seconds 
+  Import took 0.011238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Single_Carport_01_Snaps014.asset
+  artifactKey: Guid(96fb8ac3865041b4dbe3c662b361da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Single_Carport_01_Snaps014.asset using Guid(96fb8ac3865041b4dbe3c662b361da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a082f7bc92acb926fb24a315f789042') in 0.006930 seconds 
+  Import took 0.009373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_02_Snaps014.asset
+  artifactKey: Guid(576183fa058d7314087e521ccf54da74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_02_Snaps014.asset using Guid(576183fa058d7314087e521ccf54da74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fbb324850dff12aa4624e994a28038') in 0.006872 seconds 
+  Import took 0.009177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_04_Snaps014.asset
+  artifactKey: Guid(6879d073c7402fa418c59a989327c2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_04_Snaps014.asset using Guid(6879d073c7402fa418c59a989327c2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a0be7b24fe467330a2919c169301b9') in 0.006480 seconds 
+  Import took 0.008733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Tree_Brick_01_Snaps014.asset
+  artifactKey: Guid(a7b25fa2d48518d4dbbdf0a25478553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Tree_Brick_01_Snaps014.asset using Guid(a7b25fa2d48518d4dbbdf0a25478553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810cfe2b9d3b1bfc8bdba7005d535d8c') in 0.007246 seconds 
+  Import took 0.009438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_02_Snaps014.asset
+  artifactKey: Guid(c0a41dcb3d8708c409ee366a77ec47ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_02_Snaps014.asset using Guid(c0a41dcb3d8708c409ee366a77ec47ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d2d3df5bd6cbb45d03346cb0e19d6d') in 0.007156 seconds 
+  Import took 0.009339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_07_Snaps014.asset
+  artifactKey: Guid(9857d6f05cd9b5b4ea273d4200256a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_07_Snaps014.asset using Guid(9857d6f05cd9b5b4ea273d4200256a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a968dda65ec02d87e003c1ce2ac21ba') in 0.006706 seconds 
+  Import took 0.009198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_03_Collider.asset
+  artifactKey: Guid(c7d92df684c22194f8676abd1f490f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_03_Collider.asset using Guid(c7d92df684c22194f8676abd1f490f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3307bc5cb2819d5deb03ab7ed3c47d94') in 0.007177 seconds 
+  Import took 0.009439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_03_Snaps014.asset
+  artifactKey: Guid(1bfd2617129edde42bce9497811bbac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_03_Snaps014.asset using Guid(1bfd2617129edde42bce9497811bbac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2444cf3a4a4fa1ef5469b6d5e516a51') in 0.008995 seconds 
+  Import took 0.011291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Tree_01_Snaps014.asset
+  artifactKey: Guid(f64cd749fd001694c8546c6109a8dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Tree_01_Snaps014.asset using Guid(f64cd749fd001694c8546c6109a8dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0853a15639cbd21812878ba562f1b6df') in 0.010204 seconds 
+  Import took 0.012555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Door_01_Snaps014.asset
+  artifactKey: Guid(2be17ec423b00f0468baca7699e97689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Door_01_Snaps014.asset using Guid(2be17ec423b00f0468baca7699e97689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170c2df95adb915286ed9c3a5e7d2b32') in 0.008801 seconds 
+  Import took 0.011127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Door_02_Snaps014.asset
+  artifactKey: Guid(0429df4f8923ea04ebbb3c78c40b6e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Door_02_Snaps014.asset using Guid(0429df4f8923ea04ebbb3c78c40b6e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee9c4d65772f6d84fcd85646bd0df7') in 0.009741 seconds 
+  Import took 0.011952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Stone_01_Snaps014.asset
+  artifactKey: Guid(93c55fa9899c3e34e9c28a463c7417bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Stone_01_Snaps014.asset using Guid(93c55fa9899c3e34e9c28a463c7417bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204f69884802638575084c823df84c92') in 0.006336 seconds 
+  Import took 0.008500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Shrubs_01_Snaps014.asset
+  artifactKey: Guid(f6d9221863e63bb4f83ddf1f99658df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Shrubs_01_Snaps014.asset using Guid(f6d9221863e63bb4f83ddf1f99658df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c066ff64d177794aa3ab4e8b53b2359') in 0.006644 seconds 
+  Import took 0.008905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_01_Snaps014.asset
+  artifactKey: Guid(74e7aec029f83aa49a14d990d7fac555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_01_Snaps014.asset using Guid(74e7aec029f83aa49a14d990d7fac555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7064b8d41ae83ddc5b7e8ecdb0b35970') in 0.007660 seconds 
+  Import took 0.009894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_01_Collider.asset
+  artifactKey: Guid(613e541f4b301554ebf20791f73ade97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_01_Collider.asset using Guid(613e541f4b301554ebf20791f73ade97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aff2b2f7c1a5a39cc1d99635de3d85') in 0.007733 seconds 
+  Import took 0.010195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Roadblock_01_Snaps014.asset
+  artifactKey: Guid(3728970ba0abd8342aefdd49e699bb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Roadblock_01_Snaps014.asset using Guid(3728970ba0abd8342aefdd49e699bb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e2d2b38a45fa176a239252f8d6ef2f') in 0.006647 seconds 
+  Import took 0.008781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Tree_01_Collider.asset
+  artifactKey: Guid(659eb91c1c8b96a46a38e5943d4811be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Tree_01_Collider.asset using Guid(659eb91c1c8b96a46a38e5943d4811be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5747c31cc1e55f4f39c1aaedae55ae') in 0.008760 seconds 
+  Import took 0.010921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_04_Snaps014.asset
+  artifactKey: Guid(911146dde484f7944826c2ea5c5cd922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_04_Snaps014.asset using Guid(911146dde484f7944826c2ea5c5cd922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc81ffa8cd61bc46b99f19e311785bc8') in 0.006362 seconds 
+  Import took 0.008594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Single_Carport_02_Collider.asset
+  artifactKey: Guid(a196ca4136e5d5746830f4cced7798fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Single_Carport_02_Collider.asset using Guid(a196ca4136e5d5746830f4cced7798fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac59ec9dd1682881b0cda84777cfadb9') in 0.006281 seconds 
+  Import took 0.008523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Single_Carport_02_Snaps014.asset
+  artifactKey: Guid(865aaf86fd91cdf41b88a68bdfbc77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Single_Carport_02_Snaps014.asset using Guid(865aaf86fd91cdf41b88a68bdfbc77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea55e097a277a284fb465dfb9d608a8f') in 0.007056 seconds 
+  Import took 0.009518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_06_Snaps014.asset
+  artifactKey: Guid(4eb2342bf2035984f95c067511bd078c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Certificate_06_Snaps014.asset using Guid(4eb2342bf2035984f95c067511bd078c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe55513e174918917af4b3fa8bce15b') in 0.006603 seconds 
+  Import took 0.008954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_01_Snaps014.asset
+  artifactKey: Guid(d7e0209543c603441b185cad9ed2ff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Flowerbeds_01_Snaps014.asset using Guid(d7e0209543c603441b185cad9ed2ff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c477f2178301a8a6d5ee9d951522dc') in 0.006732 seconds 
+  Import took 0.008907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Stone_02_Snaps014.asset
+  artifactKey: Guid(b870d4a6dce5eef4788b8d13c0f42c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/School/Prefabs/Props/Outdoor/meshes/Stone_02_Snaps014.asset using Guid(b870d4a6dce5eef4788b8d13c0f42c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177fa2c7bddb07cdcc640e19d7cf2d7b') in 0.006582 seconds 
+  Import took 0.008987 seconds .
+
