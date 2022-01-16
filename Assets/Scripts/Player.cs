@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -25,6 +26,11 @@ public class Player : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(transform.position, 0.1f, groundLayers, QueryTriggerInteraction.Ignore);
 
+        if (rigidbodyComponent.position.y <= -3)
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             jumpKeyWasPressed = true;
@@ -33,6 +39,16 @@ public class Player : MonoBehaviour
             }
         }
         horizontalInput = Input.GetAxis("Horizontal");
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        if(col.gameObject.tag == "virus")
+        { 
+            Debug.Log("Do something here");
+            SceneManager.LoadScene("SampleScene");
+        }
+
     }
 
     private void FixedUpdate()
@@ -55,4 +71,5 @@ public class Player : MonoBehaviour
 
         rigidbodyComponent.velocity = new Vector3(horizontalInput * 2.5f, rigidbodyComponent.velocity.y, 0);
     }
+
 }
