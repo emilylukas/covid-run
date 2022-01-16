@@ -71,6 +71,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: virusObject
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109d7e11c3886414692bac4e9c681268, type: 3}
+      propertyPath: m_TagString
+      value: virus
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 109d7e11c3886414692bac4e9c681268, type: 3}
 --- !u!1 &3248948667728732592 stripped
