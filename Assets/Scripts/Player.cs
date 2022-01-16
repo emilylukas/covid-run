@@ -15,6 +15,9 @@ public class Player : MonoBehaviour
     private bool isGrounded;
     private Rigidbody rigidbodyComponent;
 
+    public int lives = 3;
+    public Texture2D[] hearts = new Texture2D[3];
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,12 @@ public class Player : MonoBehaviour
 
         if (rigidbodyComponent.position.y <= -3)
         {
+            lives--;
+            if (lives == 0)
+            {
+                // load game over screen
+                return;
+            }
             SceneManager.LoadScene("SampleScene");
         }
 
@@ -62,4 +71,11 @@ public class Player : MonoBehaviour
         rigidbodyComponent.velocity = new Vector3(horizontalInput * 2.5f, rigidbodyComponent.velocity.y, 0);
     }
 
+    private void OnGUI()
+    {
+        if (lives > 0)
+        {
+            GUI.DrawTexture(new Rect(10, 10, 150, 100), hearts[lives - 1]);
+        }
+    }
 }
