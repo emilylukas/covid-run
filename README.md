@@ -17,4 +17,7 @@ Mac:
 
 Press play and enjoy!
 
+## Source Code
+Source code can be found in the `Game` branch
+
 
