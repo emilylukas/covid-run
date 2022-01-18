@@ -1,5 +1,8 @@
-# CovidRun 
+# 🏃🏻 🦠 CovidRun 
 A fun 3D game to avoid getting hit by Covid-19! Collect vaccines on the way to reach the hospital!
+
+Built with Unity and submitted to NwHacks 2022.  
+🏆 Best Use of Unity Winner
 
 ## Play the game here
 
